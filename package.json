@@ -1,0 +1,42 @@
+{
+  "name": "mahjong",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "core-js": "^3.6.5",
+    "@babel/core": "^7.11.1",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-transform-react-jsx": "^7.10.4",
+    "@babel/preset-env": "^7.11.0",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dev-utils": "^11.0.0",
+    "react-dom": "^17.0.1",
+    "react-refresh": "^0.8.3",
+    "react-scripts": "4.0.0",
+    "sass": "^1.26.10",
+    "whatwg-fetch": "^3.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
